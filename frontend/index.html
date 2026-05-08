@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DocEvidence</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <h1>📘 DocEvidence</h1>
+    <p>Teacher Dashboard</p>
+
+    <div class="card">
+        <input id="student" placeholder="Student Name">
+        <input id="class" placeholder="Class (e.g Form 2A)">
+        <input id="assignment" placeholder="Assignment Title">
+
+        <textarea id="text" placeholder="Paste student essay here"></textarea>
+
+        <button onclick="analyze()">ANALYZE DOCUMENT</button>
+    </div>
+
+    <div class="results">
+        <h2>Results</h2>
+        <pre id="output">Waiting for analysis...</pre>
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
